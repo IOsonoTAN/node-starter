@@ -1,0 +1,35 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "description": "This is a simeple project (MVC Pattern) for start with Node.js included Koa.js, MongoDB (Mongoose), Redis for storage and Jest for testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "IOsonoTAN",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dotenv": "^4.0.0",
+    "koa": "^2.4.1",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.3.0",
+    "mongoose": "^5.0.0-rc0",
+    "mongoose-paginate": "^5.0.3",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "chance": "^1.0.13",
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.0.4",
+    "nodemon": "^1.12.1"
+  }
+}
